@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <title>Dropdown</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="navigation">
+        <img src="./images/logo.svg" alt="">
+        
+        <img id="open" src="./images/icon-menu.svg" alt="">
+        <ul id="menu">
+            <li id="close"><img src="./images/icon-close-menu.svg" alt=""></li>
+            <li>
+                <div id="features"> Features <span><img id="f-dw" src="./images/icon-arrow-down.svg"
+                            alt=""></span><span><img class="f-up" src="./images/icon-arrow-up.svg" alt=""></span></div>
+                <div class="f-dropdown">
+                    <div>
+                        <img src="./images/icon-todo.svg" alt="">
+                        <p>Todo list</p>
+                    </div>
+                    <div>
+                        <img src="./images/icon-calendar.svg" alt="">
+                        <p>Calendar</p>
+                    </div>
+                    <div>
+                        <img src="./images/icon-reminders.svg" alt="">
+                        <p>Reminders</p>
+                    </div>
+                    <div>
+                        <img src="./images/icon-planning.svg" alt="">
+                        <p>Planning</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="company">Company <span><img id="c-dw" src="./images/icon-arrow-down.svg" alt=""></span><span><img
+                            class="c-up" src="./images/icon-arrow-up.svg" alt=""></span></div>
+                <div class="c-dropdown">
+                    <p>History</p>
+                    <p>Our Team</p>
+                    <p>Blog</p>
+                </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+            <li>Login</li>
+            <li id="register">Register</li>
+        </ul>
+    
+    </section>
+
+    <section id="content">
+        <div id="info-box">
+            <img id="mob-img" src="./images/image-hero-mobile.png" alt="">
+            <h1>Make remote work</h1>
+            <p> Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+            <button type="button">Learn more</button>
+            <div id='logos'>
+                <img src="./images/client-databiz.svg" alt="">
+                <img src="./images/client-audiophile.svg" alt="">
+                <img src="./images/client-meet.svg" alt="">
+                <img src="./images/client-maker.svg" alt="">
+            </div>
+        </div>
+        <img id="desk-img" src="./images/image-hero-desktop.png" alt="">
+    </section>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
